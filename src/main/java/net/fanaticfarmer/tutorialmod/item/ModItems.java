@@ -2,6 +2,7 @@ package net.fanaticfarmer.tutorialmod.item;
 
 import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
 import net.fanaticfarmer.tutorialmod.TutorialMod;
+import net.fanaticfarmer.tutorialmod.item.custom.ChiselItem;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemGroups;
 import net.minecraft.registry.Registries;
@@ -12,6 +13,7 @@ public class ModItems {
     public static final Item PINK_GARNET = registerItem("pink_garnet", new Item(new Item.Settings()));
     public static final Item RAW_PINK_GARNET = registerItem("raw_pink_garnet", new Item(new Item.Settings()));
 
+    public static final Item CHISEL = registerItem("chisel", new ChiselItem(new Item.Settings().maxDamage(14500)));
 
     private static Item registerItem(String name, Item item){
 // import net.minecraft.registry.Registry;
