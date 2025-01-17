@@ -42,6 +42,7 @@ public class ChiselItem extends Item {
             if(!world.isClient()) {
                 world.setBlockState(context.getBlockPos(), CHISEL_MAP.get(clickedBlock).getDefaultState());
 
+                //noinspection DataFlowIssue
                 context.getStack().damage(1, ((ServerWorld) world), ((ServerPlayerEntity) context. getPlayer()),
                         item -> context.getPlayer().sendEquipmentBreakStatus(item, EquipmentSlot.MAINHAND));
 
