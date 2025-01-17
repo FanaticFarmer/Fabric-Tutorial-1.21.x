@@ -14,6 +14,14 @@
   "block.tutorialmod.magic_block": "Magic Block",
 
   "itemgroup.tutorialmod.pink_garnet_items": "Pink Garnet Items",
-  "itemgroup.tutorialmod.pink_garnet_blocks": "Pink Garnet Blocks"
+  "itemgroup.tutorialmod.pink_garnet_blocks": "Pink Garnet Blocks",
+
+  "tooltip.tutorialmod.magic_block.tooltip": "This block is very, very, §dvery§r §l§5MAGICAL",
+  "tooltip.tutorialmod.chisel.shift_down_1": "§7Hold §f[§8SHIFT§f] §7to §5identify§7...",
+  "tooltip.tutorialmod.chisel.shift_down_2": "",
+  "tooltip.tutorialmod.chisel.shift_down_3": "§o§fWow, such empty.",
+  "tooltip.tutorialmod.chisel": "§7Hold §8[§fSHIFT§8] §7to §5identify§7...",
+
+  "tooltip.tutorialmod.cauliflower.tooltip": "§oyummers..."
 
 }
