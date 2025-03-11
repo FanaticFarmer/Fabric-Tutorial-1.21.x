@@ -37,6 +37,9 @@
   "tooltip.tutorialmod.chisel.shift_down_3": "§o§fWow, such empty.",
   "tooltip.tutorialmod.chisel": "§7Hold §8[§fSHIFT§8] §7to §5identify§7...",
 
-  "tooltip.tutorialmod.cauliflower.tooltip": "§oyummers..."
+  "tooltip.tutorialmod.cauliflower.tooltip": "§oyummers...",
+
+
+  "block.tutorialmod.pink_garnet_lamp": "Pink Garnet Lamp"
 
 }
