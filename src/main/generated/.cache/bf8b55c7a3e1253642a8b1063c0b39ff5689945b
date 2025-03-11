@@ -1,4 +1,4 @@
-// 1.21	2025-03-11T19:21:54.1535217	Tutorial Mod/Model Definitions
+// 1.21	2025-03-11T19:53:03.5809033	Tutorial Mod/Model Definitions
 98a32ab0585217e2409a4eaa0d6a648966347c13 assets\tutorialmod\models\item\pink_garnet_trapdoor.json
 7db57b6386f02d11557397a148c30dea085235e0 assets\tutorialmod\blockstates\pink_garnet_slab.json
 22e3abaf5d35f4abb244206541c642bd57e93135 assets\tutorialmod\models\item\pink_garnet_fence.json
@@ -60,6 +60,7 @@ a4dd4c2f1de0c937e93fee9f3b393e7a05617b94 assets\tutorialmod\models\block\pink_ga
 51e9c213683a5edc7250a3fc72a4dda3cd4a547e assets\tutorialmod\models\block\pink_garnet_stairs_inner.json
 c5c2c9e3791629868052f3ae6a783c1fbeb77e49 assets\tutorialmod\models\block\pink_garnet_lamp.json
 9dafa8c7abfad7661aecc276099e2c6594d99cc4 assets\tutorialmod\models\block\pink_garnet_door_bottom_left_open.json
+00d484aeafa1b6b8a7a6dcc575cfd572b517bd23 assets\tutorialmod\models\item\pink_garnet_hammer.json
 81bb3e4be03a91f0bc9119ef53fc4229cc8e66b7 assets\tutorialmod\blockstates\pink_garnet_trapdoor.json
 826d6bd191f97dd0a81560627f54f0dd3d93d539 assets\tutorialmod\models\item\cauliflower.json
 32305f6ce3ee61546017e60ba255e791e8997032 assets\tutorialmod\models\item\pink_garnet.json
@@ -74,7 +75,7 @@ c0f86e3f90e3aee91ec48242469069878a02edef assets\tutorialmod\models\block\pink_ga
 24f724c2198ff8944770b708972a4fb85bb82e77 assets\tutorialmod\models\block\pink_garnet_trapdoor_open.json
 78060f761e21d98042a47bf0698ec8ee5d9abad2 assets\tutorialmod\models\block\pink_garnet_wall_side.json
 85f8daae4c33ffad6aebd3e7f1d0bba169b1dff1 assets\tutorialmod\models\block\pink_garnet_door_top_right.json
-23f375910536eabdd8edc98d945a973c1ad227b6 assets\tutorialmod\models\block\pink_garnet_door_top_right_open.json
 f8b6f1021ac80c221d8d83ede8e5816c45ef723f assets\tutorialmod\blockstates\pink_garnet_button.json
+23f375910536eabdd8edc98d945a973c1ad227b6 assets\tutorialmod\models\block\pink_garnet_door_top_right_open.json
 e4a99a451261b58f0ad99c765ea8dfb6af84412b assets\tutorialmod\blockstates\pink_garnet_ore.json
 1de8986c7f889df43a340003b65d2a4a43bc2348 assets\tutorialmod\models\item\raw_pink_garnet.json

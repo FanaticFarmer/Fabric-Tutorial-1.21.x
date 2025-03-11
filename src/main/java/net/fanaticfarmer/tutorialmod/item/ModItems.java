@@ -3,6 +3,7 @@ package net.fanaticfarmer.tutorialmod.item;
 import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
 import net.fanaticfarmer.tutorialmod.TutorialMod;
 import net.fanaticfarmer.tutorialmod.item.custom.ChiselItem;
+import net.fanaticfarmer.tutorialmod.item.custom.HammerItem;
 import net.minecraft.item.*;
 import net.minecraft.item.tooltip.TooltipType;
 import net.minecraft.registry.Registries;
@@ -47,6 +48,10 @@ public class ModItems {
     public static final Item PINK_GARNET_HOE = registerItem("pink_garnet_hoe",
             new HoeItem(ModToolMaterials.PINK_GARNET, new Item.Settings()
                     .attributeModifiers(HoeItem.createAttributeModifiers(ModToolMaterials.PINK_GARNET, 0, -3.0f))));
+
+    public static final Item PINK_GARNET_HAMMER = registerItem("pink_garnet_hammer",
+            new HammerItem(ModToolMaterials.PINK_GARNET, new Item.Settings()
+                    .attributeModifiers(HammerItem.createAttributeModifiers(ModToolMaterials.PINK_GARNET, 7, -3.4f))));
 
 
     private static Item registerItem(String name, Item item){
