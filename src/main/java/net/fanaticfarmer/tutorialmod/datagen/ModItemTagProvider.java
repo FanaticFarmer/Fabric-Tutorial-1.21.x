@@ -6,6 +6,8 @@ import net.fanaticfarmer.tutorialmod.item.ModItems;
 import net.fanaticfarmer.tutorialmod.util.ModTags;
 import net.minecraft.item.Items;
 import net.minecraft.registry.RegistryWrapper;
+import net.minecraft.registry.tag.ItemTags;
+
 import java.util.concurrent.CompletableFuture;
 
 public class ModItemTagProvider extends FabricTagProvider.ItemTagProvider {
@@ -24,5 +26,16 @@ public class ModItemTagProvider extends FabricTagProvider.ItemTagProvider {
                 .add(Items.APPLE);
 
 
+
+        getOrCreateTagBuilder(ItemTags.SWORDS)
+                .add(ModItems.PINK_GARNET_SWORD);
+        getOrCreateTagBuilder(ItemTags.PICKAXES)
+                .add(ModItems.PINK_GARNET_PICKAXE);
+        getOrCreateTagBuilder(ItemTags.AXES)
+                .add(ModItems.PINK_GARNET_AXE);
+        getOrCreateTagBuilder(ItemTags.SHOVELS)
+                .add(ModItems.PINK_GARNET_SHOVEL);
+        getOrCreateTagBuilder(ItemTags.HOES)
+                .add(ModItems.PINK_GARNET_HOE);
     }
 }

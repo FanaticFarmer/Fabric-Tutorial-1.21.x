@@ -3,9 +3,7 @@ package net.fanaticfarmer.tutorialmod.item;
 import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
 import net.fanaticfarmer.tutorialmod.TutorialMod;
 import net.fanaticfarmer.tutorialmod.item.custom.ChiselItem;
-import net.minecraft.item.Item;
-import net.minecraft.item.ItemGroups;
-import net.minecraft.item.ItemStack;
+import net.minecraft.item.*;
 import net.minecraft.item.tooltip.TooltipType;
 import net.minecraft.registry.Registries;
 import net.minecraft.registry.Registry;
@@ -29,6 +27,27 @@ public class ModItems {
     });
 
     public static final Item STARLIGHT_ASHES = registerItem("starlight_ashes", new Item(new Item.Settings()));
+
+    public static final Item PINK_GARNET_SWORD = registerItem("pink_garnet_sword",
+            new SwordItem(ModToolMaterials.PINK_GARNET, new Item.Settings()
+                    .attributeModifiers(SwordItem.createAttributeModifiers(ModToolMaterials.PINK_GARNET, 3, -2.4f))));
+
+    public static final Item PINK_GARNET_PICKAXE = registerItem("pink_garnet_pickaxe",
+            new PickaxeItem(ModToolMaterials.PINK_GARNET, new Item.Settings()
+                    .attributeModifiers(PickaxeItem.createAttributeModifiers(ModToolMaterials.PINK_GARNET, 3, -2.4f))));
+
+    public static final Item PINK_GARNET_SHOVEL = registerItem("pink_garnet_shovel",
+            new ShovelItem(ModToolMaterials.PINK_GARNET, new Item.Settings()
+                    .attributeModifiers(ShovelItem.createAttributeModifiers(ModToolMaterials.PINK_GARNET, 1.5f, -3.0f))));
+
+    public static final Item PINK_GARNET_AXE = registerItem("pink_garnet_axe",
+            new AxeItem(ModToolMaterials.PINK_GARNET, new Item.Settings()
+                    .attributeModifiers(AxeItem.createAttributeModifiers(ModToolMaterials.PINK_GARNET, 6, -3.2f))));
+
+    public static final Item PINK_GARNET_HOE = registerItem("pink_garnet_hoe",
+            new HoeItem(ModToolMaterials.PINK_GARNET, new Item.Settings()
+                    .attributeModifiers(HoeItem.createAttributeModifiers(ModToolMaterials.PINK_GARNET, 0, -3.0f))));
+
 
     private static Item registerItem(String name, Item item){
 // import net.minecraft.registry.Registry;

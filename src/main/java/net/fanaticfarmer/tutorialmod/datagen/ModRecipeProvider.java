@@ -50,6 +50,17 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                 .offerTo(recipeExporter);
 
 
+        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModItems.PINK_GARNET_SWORD)
+                .pattern("PPP")
+                .pattern(" S ")
+                .pattern(" S ")
+                .input('P', ModItems.PINK_GARNET)
+                .input('S', Items.STICK)
+                .criterion(hasItem(ModItems.PINK_GARNET), conditionsFromItem(ModItems.PINK_GARNET))
+                .offerTo(recipeExporter);
+
+        
+
 
     }
 }
